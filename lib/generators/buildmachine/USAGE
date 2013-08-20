@@ -1,0 +1,28 @@
+Description:
+    Explain the generator
+
+Example:
+
+    # server setup
+    buildmachine setup-server server-name recipe-name
+    
+    # project managing
+    buildmachine add-story #story-title
+    buildmachine add-task #story-title
+    buildmachine remove-task #task-id
+    buildmachine approve #story-id
+    buildmachine test #story-id
+
+    
+    # Monitoring Scripts
+    buildmachine monitor-system
+    buildmachine monitor-packages
+    buildmachine monitor-packahes
+
+    rails generate mobilze install 
+    This will install the necessary files to setup the app
+
+
+    rails generate mobilze model <ModelName> 
+    This will generate the index, and show pages for each model
+        
