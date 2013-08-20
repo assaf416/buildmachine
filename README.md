@@ -1,11 +1,9 @@
-# Moblize Gem for Rails applications
+# buildmachine Gem for Rails applications
 
- Moblize Gem creates a mobile extensions for your rails app. developers can generate mobile alternative views for their models.
-the Gem generates a mobile optimized layout with open source libraries such as:
+ buildmachine is a command line interface to manage your agile development from command line. 
+includeing creating project, iterations, stories etc..
 
-  -- Zepto.js - a smaller lightweight version of JQuery
-  -- ChocolateChipUI - a beatifull UI for web apps.
-
+see more on the http://www.buildmachine.com
 
 
 ## Installation
@@ -23,6 +21,7 @@ gem "buildmachine"
 
 
 ## Files and Directories
+```
  The gem creates folder named .buildmachine
     -- root
         -- website
@@ -41,8 +40,5 @@ gem "buildmachine"
             --  
     
     
-
-
--- rails g mobilize install 
--- rails g mobilize model <ModelName>
+```
  
